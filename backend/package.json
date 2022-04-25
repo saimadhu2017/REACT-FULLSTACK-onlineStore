@@ -9,9 +9,10 @@
   "author": "SAI MADHU",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "express-json": "^1.0.0",
+    "joi": "^17.6.0",
     "nodemon": "^2.0.15",
     "tedious": "^14.4.0"
   }

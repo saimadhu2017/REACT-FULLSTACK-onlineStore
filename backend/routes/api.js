@@ -7,6 +7,9 @@ module.exports = (app) => {
         res.end('<h1>Welcome to Backend....</h1>');
     })
 
-    //1. Get Stores
+    // 1. Get Stores
     app.route('/stores').get(storeController.getStores)
+
+    // 2. Create Store
+    app.route('/store').post(storeController.createStore)
 }

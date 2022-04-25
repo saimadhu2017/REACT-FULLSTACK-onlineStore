@@ -10,3 +10,8 @@ exports.responseConstants = {
     noContent: 204,
     unauthorized: 401,
 }
+
+exports.getValidationErrors = (joinErrorsArray) => {
+    const ListOfErrors = joinErrorsArray.map((error) => error.message);
+    return (ListOfErrors);
+}
