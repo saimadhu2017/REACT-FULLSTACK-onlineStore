@@ -10,6 +10,6 @@ module.exports = (app) => {
     // 1. Get Stores
     app.route('/stores').get(storeController.getStores)
 
-    // 2. Create Store
-    app.route('/store').post(storeController.createStore)
+    // 2. Create,update and delete Store
+    app.route('/store').post(storeController.createStore).put(storeController.updateStore).delete(storeController.deleteStore)
 }
