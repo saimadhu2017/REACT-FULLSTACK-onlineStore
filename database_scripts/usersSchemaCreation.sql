@@ -1,3 +1,14 @@
+--CREATE TABLE users.admin(
+--	[admin_id] BIGINT CONSTRAINT admin_id_pk PRIMARY KEY DEFAULT next value for store.user_id,
+--	[first_name] VARCHAR(20) NOT NULL,
+--	[last_name] VARCHAR(20) NOT NULL,
+--	[mobile_number] BIGINT NOT NULL,
+--	[mail_id] VARCHAR(50) NOT NULL UNIQUE,
+--	[password] VARCHAR(MAX) NOT NULL
+--)
+
+-- for admin I created only one user it is enough
+
 --CREATE TABLE users.customers(
 --	[customer_id] BIGINT CONSTRAINT customer_id_pk PRIMARY KEY DEFAULT next value for store.user_id,
 --	[first_name] VARCHAR(20) NOT NULL,
